@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478e0832-fdd2-4692-8204-b850f450491e" name="Changes" comment="Sorular">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/odev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiOrta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiVerimli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiVerimsiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Asal_Sayilar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Java da programin calisma hizi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Test Süreleri" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/Soru4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/Soru4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/odev.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AsalSayiVerimsiz.executor": "Profiler#1",
+    "Gradle.Build Kodlar.executor": "Run",
+    "Gradle.Kodlar [:AsalSayiOrta.main()].executor": "Run",
+    "Gradle.Kodlar [:AsalSayiVerimli.main()].executor": "Run",
+    "Gradle.Kodlar [:AsalSayiVerimsiz.main()].executor": "Run",
     "Gradle.Kodlar [:Soru1.main()].executor": "Run",
     "Gradle.Kodlar [:Soru2.main()].executor": "Run",
     "Gradle.Kodlar [:Soru3.main()].executor": "Run",
@@ -67,13 +76,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Soru7">
-    <configuration name="Soru2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.Soru2" />
+  <component name="RunManager" selected="Application.AsalSayiVerimli">
+    <configuration name="AsalSayiOrta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.odev.AsalSayiOrta" />
       <module name="Kodlar.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hafta2.ders2.*" />
+          <option name="PATTERN" value="org.example.hafta2.ders2.odev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsalSayiVerimli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.odev.AsalSayiVerimli" />
+      <module name="Kodlar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hafta2.ders2.odev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsalSayiVerimsiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.odev.AsalSayiVerimsiz" />
+      <module name="Kodlar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hafta2.ders2.odev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,39 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.hafta2.ders2.Soru3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.Soru3" />
-      <module name="Kodlar.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hafta2.ders2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.hafta2.ders2.Soru5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hafta2.ders2.Soru5" />
-      <module name="Kodlar.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hafta2.ders2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsalSayiVerimsiz" />
+        <item itemvalue="Application.AsalSayiVerimli" />
+        <item itemvalue="Application.AsalSayiOrta" />
         <item itemvalue="Application.Soru7" />
         <item itemvalue="Application.Soru6" />
-        <item itemvalue="Application.org.example.hafta2.ders2.Soru5" />
-        <item itemvalue="Application.Soru2" />
-        <item itemvalue="Application.org.example.hafta2.ders2.Soru3" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719836873806</updated>
       <workItem from="1719836874993" duration="7163000" />
-      <workItem from="1719900434529" duration="13154000" />
+      <workItem from="1719900434529" duration="13653000" />
+      <workItem from="1719957010184" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="İlk örnekler">
       <option name="closed" value="true" />
@@ -177,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719908868221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sorular">
+      <option name="closed" value="true" />
+      <created>1719914412952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719914412952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

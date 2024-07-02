@@ -1,0 +1,22 @@
+1-)Programın belirli bölümlerinde başlangıç ve bitiş zamanlarını kaydetme:
+
+Programın başlangıcında long startTime = System.currentTimeMillis();
+İlgilendiğim işlem bittikten sonra long endTime = System.currentTimeMillis();
+long elapsedTime = endTime - startTime; ile geçen süreyi hesaplarız.
+
+2-)Çalışma zamanını ölçmek için System.nanoTime() metodunu kullanma:
+
+long startTime = System.nanoTime();
+İşlem bitişinde long endTime = System.nanoTime();
+long elapsedTime = endTime - startTime; ile geçen süre nano saniye cinsinden alınır.
+
+3-)Java'nın Profiler araçlarını kullanma:
+
+Eclipse, IntelliJ IDEA ve NetBeans gibi IDE'lerin profiling özellikleri kullanılır.
+Komut satırından jvisualvm aracı kullanılabilir.
+Üçüncü parti araçlar olarak JProfiler veya YourKit gibi araçlarda kullanılabilir.
+
+4-)Java'nın JMH (Java Microbenchmark Harness) kütüphanesini kullanma:
+
+JMH, Java kodumun performans testlerini gerçekleştirmeme yardımcı olacak.
+Kullanımı biraz daha karmaşık olsa da, daha sağlıklı ve güvenilir sonuçlar elde edilir.

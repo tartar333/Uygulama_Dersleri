@@ -1,0 +1,14 @@
+> Task :AsalSayiVerimli.main()
+Enter a number : 1000003
+This is a Prime Number.
+2 : Calisma Suresi
+
+> Task :AsalSayiOrta.main()
+Enter a number : 1000003
+This is a Prime Number.
+3 : Calisma Suresi
+
+> Task :AsalSayiVerimsiz.main()
+Enter a number : 1000003
+This is a Prime Number.
+4 : Calisma Suresi

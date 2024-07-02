@@ -1,0 +1,17 @@
+Yönergeler
+Girilen sayının asal sayı olup olmadığını belirleyen program.
+
+Flowgorithm'deki soru yaklaşımımızla benzer bir yaklaşım sergileyerek programı yavaş yavaş optimize edelim, algoritmamızı hızlandıralım.
+
+Programın en ham ( en verimsiz ) halinin,
+Programın yarı verimli halinin,
+Programın en verimli halinin,
+algoritmalarını oluşturalım. (Aynı paket, farklı sınıflarda. OR: AsalSayiVerimsiz, AsalSayi Orta, AsalSayiVerimli gibi sınıf isimlendirmeleri olabilir)
+
+3 farklı versiyonun sınıfını da oluşturduktan sonra;
+
+ARAŞTIRMA KONUSU; "Java'da programımın çalışma hızını nasıl tespit edebilirim?"
+
+Araştırma sonucu edindiğiniz bilgiler ile programın her 3 versiyonunun da çalışma sürelerini hesaplayın.
+
+7+ Basamaklı bir asal sayı bulun ve bu sayı için 3 versiyonda da test işlemlerini gerçekleştirin.
