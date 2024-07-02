@@ -10,7 +10,7 @@ public class Soru4 {
 		int sonuc;
 		for(int i=1; i<=10; i++){
 			sonuc=sayi*i;
-			System.out.println(sayi+" * "+i+" = "+sonuc);
+			System.out.println(sayi+" x "+i+" = "+sonuc);
 		}
 	
 	
