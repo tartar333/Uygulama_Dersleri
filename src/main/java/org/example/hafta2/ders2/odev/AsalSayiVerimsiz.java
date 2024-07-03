@@ -16,7 +16,7 @@ public class AsalSayiVerimsiz {
 			System.out.println("This is not Prime Number");
 		}
 		else {
-			for (long i = 1; i <= number; i++) {
+			for (long i = 1; i <= number; i++) { //1 den sayıya kadar
 				if (number % i == 0) {
 					counter++;
 				}

@@ -16,7 +16,7 @@ public class AsalSayiVerimli {
 			System.out.println("This is not Prime Number.");
 		} else {
 			boolean isPrime = true;
-			for (long i = 3; i <= Math.sqrt(number) ; i += 2) {
+			for (long i = 3; i <= Math.sqrt(number) ; i += 2) { //karekök alma
 				if (number % i == 0) {
 					isPrime = false;
 					break;
