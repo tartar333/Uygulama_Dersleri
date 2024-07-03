@@ -11,87 +11,101 @@ public class Soru2 {
 		int day = sc.nextInt();
 		String horoscope;
 		
-		switch (month){
+		switch (month) {
 			case 1:
-				if(day<=21){
-					horoscope="Capricorn";
-				} else{
-					horoscope ="Aquarius";
+				if (day <= 21) {
+					horoscope = "Capricorn";
+				}
+				else {
+					horoscope = "Aquarius";
 				}
 				break;
 			case 2:
-				if(day<=19){
-					horoscope="Aquarius";
-				} else{
-					horoscope ="Pisces";
+				if (day <= 19) {
+					horoscope = "Aquarius";
+				}
+				else {
+					horoscope = "Pisces";
 				}
 				break;
 			case 3:
-				if(day<=21){
-					horoscope="Aries";
-				} else{
-					horoscope ="Pisces";
+				if (day <= 21) {
+					horoscope = "Aries";
 				}
+				else {
+					horoscope = "Pisces";
+				}
+				break;
 			case 4:
-				if(day<=21){
-					horoscope="Aries";
-				} else{
-					horoscope ="Taurus";
+				if (day <= 21) {
+					horoscope = "Aries";
 				}
+				else {
+					horoscope = "Taurus";
+				}
+				break;
 			case 5:
-				if(day<=21){
-					horoscope="Taurus";
-				} else{
-					horoscope ="Gemini";
+				if (day <= 21) {
+					horoscope = "Taurus";
+				}
+				else {
+					horoscope = "Gemini";
 				}
 				break;
 			case 6:
-				if(day<=21){
-					horoscope="Gemini";
-				} else{
-					horoscope ="Aquarius";
+				if (day <= 21) {
+					horoscope = "Gemini";
+				}
+				else {
+					horoscope = "Aquarius";
 				}
 				break;
 			case 7:
-				if(day<=21){
-					horoscope="Capricorn";
-				} else{
-					horoscope ="Cancer";
+				if (day <= 21) {
+					horoscope = "Capricorn";
+				}
+				else {
+					horoscope = "Cancer";
 				}
 				break;
 			case 8:
-				if(day<=21){
-					horoscope="Leo";
-				} else{
-					horoscope ="Virgo";
+				if (day <= 21) {
+					horoscope = "Leo";
+				}
+				else {
+					horoscope = "Virgo";
 				}
 				break;
 			case 9:
-				if(day<=21){
-					horoscope="Virgo";
-				} else{
-					horoscope ="Libra";
+				if (day <= 21) {
+					horoscope = "Virgo";
+				}
+				else {
+					horoscope = "Libra";
 				}
 				break;
 			case 10:
-				if(day<=21){
-					horoscope="Libra";
-				} else{
-					horoscope ="Aquarius";
+				if (day <= 21) {
+					horoscope = "Libra";
+				}
+				else {
+					horoscope = "Aquarius";
 				}
 				break;
 			case 11:
-				if(day<=21){
-					horoscope="Scorpio";
-				} else{
-					horoscope ="Sagittarius";
+				if (day <= 21) {
+					horoscope = "Scorpio";
+				}
+				else {
+					horoscope = "Sagittarius";
 				}
 				break;
 			case 12:
-				if(day<=21){
-					horoscope="Sagittarius";
-				} else{
-					horoscope ="Capricorn";
+				if (day <= 21) {
+					horoscope = "Sagittarius";
+				}
+				else {
+					horoscope = "Capricorn";
 				}
 				break;
 			default:

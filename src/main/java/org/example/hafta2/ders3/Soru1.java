@@ -1,8 +1,5 @@
 package org.example.hafta2.ders3;
 
-import org.example.Main;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Soru1 {
