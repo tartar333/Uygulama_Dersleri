@@ -12,11 +12,8 @@ public class AsalSayiOrta {
 		if (number % 2 == 0 && number != 2) {
 			System.out.println("This is not Prime Number.");
 		}
-		else if (number == 2) {
+		else if (number == 2 || number == 1) {
 			System.out.println("This is a Prime Number.");
-		}
-		else if (number == 1) {
-			System.out.println("This is a Prime Number");
 		}
 		else if (number < 1) {
 			System.out.println("This is not Prime Number");
@@ -25,6 +22,7 @@ public class AsalSayiOrta {
 			for (int i = 3; i <= number / 3; i++) {
 				if (number % i == 0) {
 					counter++;
+					break;
 				}
 			}
 			if (counter == 0) {
@@ -36,7 +34,7 @@ public class AsalSayiOrta {
 		}
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
-		System.out.println(elapsedTime + " : Calisma Suresi");
+		System.out.println(elapsedTime + " ms : Execution Time");
 		
 		
 	}

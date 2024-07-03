@@ -1,14 +1,14 @@
 > Task :AsalSayiVerimli.main()
 Enter a number : 1000003
 This is a Prime Number.
-2 : Calisma Suresi
+0 ms : Execution Time
 
 > Task :AsalSayiOrta.main()
 Enter a number : 1000003
 This is a Prime Number.
-3 : Calisma Suresi
+2 ms : Execution Time
 
 > Task :AsalSayiVerimsiz.main()
 Enter a number : 1000003
 This is a Prime Number.
-4 : Calisma Suresi
+4 ms : Execution Time

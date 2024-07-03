@@ -33,6 +33,6 @@ public class AsalSayiVerimsiz {
 		}
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
-		System.out.println(elapsedTime + " : Calisma Suresi");
+		System.out.println(elapsedTime + " ms : Execution Time");
 	}
 }
