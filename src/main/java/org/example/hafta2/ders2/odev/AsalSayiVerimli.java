@@ -22,12 +22,14 @@ public class AsalSayiVerimli {
 			for (int i = 3; i <= number / 3; i += 2) {
 				if (number % i == 0) {
 					System.out.println("This is not Prime Number");
+					counter++;
 					break;
 				}
+				if (counter == 0) {
+					System.out.println("This is a Prime Number.");
+				}
 			}
-			if (counter == 0) {
-				System.out.println("This is a Prime Number.");
-			}
+
 			
 		}
 		long endTime = System.currentTimeMillis();

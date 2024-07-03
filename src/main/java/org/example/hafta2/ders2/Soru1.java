@@ -20,7 +20,7 @@ public class Soru1 {
 		}
 		System.out.print("Kullanici adinizi giriniz : ");
 		String kullanici_adi= scanner.nextLine();
-		System.out.println(kullanici_adi+" "+taban+" uzeri "+sayac+" isleminin sonucu : "+sonuc+"olur");
+		System.out.println(kullanici_adi+" "+taban+" uzeri "+sayac+" isleminin sonucu : "+sonuc+" olur");
 		
 		
 	

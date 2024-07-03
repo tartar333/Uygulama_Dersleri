@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478e0832-fdd2-4692-8204-b850f450491e" name="Changes" comment="Sorular">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiOrta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiVerimli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/AsalSayiVerimsiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Asal_Sayilar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Java da programin calisma hizi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/Test Süreleri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="478e0832-fdd2-4692-8204-b850f450491e" name="Changes" comment="Ödev">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hafta2/ders2/odev/odev.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +162,7 @@
       <updated>1719836873806</updated>
       <workItem from="1719836874993" duration="7163000" />
       <workItem from="1719900434529" duration="13653000" />
-      <workItem from="1719957010184" duration="5592000" />
+      <workItem from="1719957010184" duration="6541000" />
     </task>
     <task id="LOCAL-00001" summary="İlk örnekler">
       <option name="closed" value="true" />
@@ -195,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719914412952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ödev">
+      <option name="closed" value="true" />
+      <created>1719962836976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719962836976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +206,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="İlk örnekler" />
     <MESSAGE value="Sorular" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorular" />
+    <MESSAGE value="Ödev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ödev" />
   </component>
 </project>
