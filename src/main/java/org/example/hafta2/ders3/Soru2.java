@@ -30,10 +30,10 @@ public class Soru2 {
 				break;
 			case 3:
 				if (day <= 21) {
-					horoscope = "Aries";
+					horoscope = "Pisces";
 				}
 				else {
-					horoscope = "Pisces";
+					horoscope = "Aries";
 				}
 				break;
 			case 4:
@@ -57,7 +57,7 @@ public class Soru2 {
 					horoscope = "Gemini";
 				}
 				else {
-					horoscope = "Aquarius";
+					horoscope = "Capricorn";
 				}
 				break;
 			case 7:
@@ -65,7 +65,7 @@ public class Soru2 {
 					horoscope = "Capricorn";
 				}
 				else {
-					horoscope = "Cancer";
+					horoscope = "leo";
 				}
 				break;
 			case 8:
@@ -89,7 +89,7 @@ public class Soru2 {
 					horoscope = "Libra";
 				}
 				else {
-					horoscope = "Aquarius";
+					horoscope = "Scorpio";
 				}
 				break;
 			case 11:
