@@ -12,3 +12,18 @@ This is a Prime Number.
 Enter a number : 1000003
 This is a Prime Number.
 4 ms : Execution Time
+
+> Task :AsalSayiVerimli.main()
+Enter a number : 1234567
+This is a Prime Number.
+0 ms : Execution Time
+
+> Task :AsalSayiOrta.main()
+Enter a number : 1234567
+This is a Prime Number.
+1 ms : Execution Time
+
+> Task :AsalSayiVerimsiz.main()
+Enter a number : 1234567
+This is a Prime Number.
+5 ms : Execution Time

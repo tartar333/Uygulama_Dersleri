@@ -7,6 +7,7 @@ public class AsalSayiOrta {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		int number = sc.nextInt();
+		sc.close();
 		long startTime = System.currentTimeMillis();
 		int counter = 0;
 		if (number % 2 == 0 && number != 2) {

@@ -7,6 +7,7 @@ public class AsalSayiVerimli {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		int number = sc.nextInt();
+		sc.close();
 		long startTime = System.currentTimeMillis();
 		
 		if (number <= 1) {
@@ -34,6 +35,6 @@ public class AsalSayiVerimli {
 		long elapsedTime = endTime - startTime;
 		System.out.println(elapsedTime + " ms : Execution Time");
 		
-		sc.close();
+		
 	}
 }

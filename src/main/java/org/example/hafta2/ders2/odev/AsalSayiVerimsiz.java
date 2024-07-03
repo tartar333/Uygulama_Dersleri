@@ -31,6 +31,7 @@ public class AsalSayiVerimsiz {
 				System.out.println("This is not a Prime Number.");
 			}
 		}
+		sc.close();
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
 		System.out.println(elapsedTime + " ms : Execution Time");
