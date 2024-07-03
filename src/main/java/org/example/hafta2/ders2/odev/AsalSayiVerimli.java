@@ -18,7 +18,7 @@ public class AsalSayiVerimli {
 			System.out.println("This is not a Prime Number.");
 		} else {
 			boolean isPrime = true;
-			for (int i = 3; i <= Math.sqrt(number); i += 2) {
+			for (int i = 3; i <= Math.sqrt(number) ; i += 2) {
 				if (number % i == 0) {
 					isPrime = false;
 					break;

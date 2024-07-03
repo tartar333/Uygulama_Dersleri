@@ -12,11 +12,8 @@ public class AsalSayiVerimsiz {
 		if (number == 2) {
 			System.out.println("This is a Prime Number.");
 		}
-		else if(number<1){
+		else if(number<=1){
 			System.out.println("This is not Prime Number");
-		}
-		else if (number == 1) {
-			System.out.println("This is a Prime Number");
 		}
 		else {
 			for (int i = 1; i <= number; i++) {

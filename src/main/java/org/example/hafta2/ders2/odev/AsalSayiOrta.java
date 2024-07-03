@@ -13,10 +13,10 @@ public class AsalSayiOrta {
 		if (number % 2 == 0 && number != 2) {
 			System.out.println("This is not Prime Number.");
 		}
-		else if (number == 2 || number == 1) {
+		else if (number == 2) {
 			System.out.println("This is a Prime Number.");
 		}
-		else if (number < 1) {
+		else if (number <= 1) {
 			System.out.println("This is not Prime Number");
 		}
 		else {
