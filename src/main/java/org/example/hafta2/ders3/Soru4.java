@@ -46,7 +46,7 @@ public class Soru4 {
 			small = num5;
 		}
 		
-		// Sonuçların yazdırılması
+		
 		System.out.println("Biggest number : " + big);
 		System.out.println("Smallest number : " + small);
 	}
