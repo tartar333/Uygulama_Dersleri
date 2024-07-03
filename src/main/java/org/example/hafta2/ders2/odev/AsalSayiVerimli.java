@@ -6,7 +6,7 @@ public class AsalSayiVerimli {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
-		int number = sc.nextInt();
+		long number = sc.nextLong();
 		sc.close();
 		long startTime = System.currentTimeMillis();
 		
@@ -18,7 +18,7 @@ public class AsalSayiVerimli {
 			System.out.println("This is not a Prime Number.");
 		} else {
 			boolean isPrime = true;
-			for (int i = 3; i <= Math.sqrt(number) ; i += 2) {
+			for (long i = 3; i <= Math.sqrt(number) ; i += 2) {
 				if (number % i == 0) {
 					isPrime = false;
 					break;

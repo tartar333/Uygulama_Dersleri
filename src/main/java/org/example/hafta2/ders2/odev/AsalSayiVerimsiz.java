@@ -6,7 +6,7 @@ public class AsalSayiVerimsiz {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
-		int number = sc.nextInt();
+		long number = sc.nextLong();
 		long startTime = System.currentTimeMillis();
 		int counter = 0;
 		if (number == 2) {
@@ -16,7 +16,7 @@ public class AsalSayiVerimsiz {
 			System.out.println("This is not Prime Number");
 		}
 		else {
-			for (int i = 1; i <= number; i++) {
+			for (long i = 1; i <= number; i++) {
 				if (number % i == 0) {
 					counter++;
 				}
