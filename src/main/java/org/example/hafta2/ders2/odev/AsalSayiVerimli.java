@@ -10,12 +10,10 @@ public class AsalSayiVerimli {
 		sc.close();
 		long startTime = System.currentTimeMillis();
 		
-		if (number <= 1) {
+		if (number <= 1 || number % 2 == 0) {
 			System.out.println("This is not a Prime Number.");
 		} else if (number == 2) {
 			System.out.println("This is a Prime Number.");
-		} else if (number % 2 == 0) {
-			System.out.println("This is not a Prime Number.");
 		} else {
 			boolean isPrime = true;
 			for (long i = 3; i <= Math.sqrt(number) ; i += 2) {
