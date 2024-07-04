@@ -65,7 +65,7 @@ public class Menu {
 						Thread.sleep(3000);
 						break;
 					default:
-						System.out.println("Farkli bir tusa bastiniz cikis yapiliyor...");
+						System.out.println("Farkli bir tusa bastiniz cikis yapiliyor. Görüsmek Uzere...");
 						Thread.sleep(2000);
 						select = 5;
 						break;
@@ -120,7 +120,7 @@ public class Menu {
 						Thread.sleep(3000);
 						break;
 					default:
-						System.out.println("You pressed different key. You are logging out...");
+						System.out.println("You pressed different key. You are logging out. See You...");
 						Thread.sleep(2000);
 						select = 5;
 						break;
