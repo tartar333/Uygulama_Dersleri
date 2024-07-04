@@ -3,7 +3,7 @@ package org.example.hafta2.ders3.Odev;
 import java.util.Scanner;
 
 public class Menu {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Hosgeldiniz!/Welcome!");
@@ -19,6 +19,7 @@ public class Menu {
 				switch (tSelect) {
 					case 1:
 						System.out.println("Merhaba Dunya");
+						Thread.sleep(1500);
 						break;
 					case 2:
 						System.out.print("Faktoriyelini istediginiz sayiyi girin : ");
@@ -29,6 +30,7 @@ public class Menu {
 							
 						}
 						System.out.println("Girilen sayinin Faktoriyeli : " + b + "'dir.");
+						Thread.sleep(3000);
 						break;
 					case 3:
 						System.out.println("Bir sayi giriniz : ");
@@ -54,9 +56,11 @@ public class Menu {
 								System.out.println("Asal Sayi Degildir.");
 							}
 						}
+						Thread.sleep(3000);
 						break;
 					default:
 						System.out.println("Farkli bir tusa bastiniz cikis yapiliyor...");
+						Thread.sleep(2000);
 						select = 5;
 						break;
 				}
@@ -71,6 +75,7 @@ public class Menu {
 				switch (tSelect) {
 					case 1:
 						System.out.println("Hello World!");
+						Thread.sleep(1500);
 						break;
 					case 2:
 						System.out.print("Enter the number you want the factorial:\n ");
@@ -81,6 +86,7 @@ public class Menu {
 							
 						}
 						System.out.println("Factorial of the entered number : " + b);
+						Thread.sleep(3000);
 						break;
 					case 3:
 						System.out.println("Enter Number : ");
@@ -106,9 +112,11 @@ public class Menu {
 								System.out.println("This is not Prime Number.");
 							}
 						}
+						Thread.sleep(3000);
 						break;
 					default:
 						System.out.println("You pressed different key. You are logging out...");
+						Thread.sleep(2000);
 						select = 5;
 						break;
 				}
