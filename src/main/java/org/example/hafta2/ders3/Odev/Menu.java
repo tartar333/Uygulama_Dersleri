@@ -7,13 +7,20 @@ public class Menu {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Hosgeldiniz!/Welcome!");
+		Thread.sleep(1000);
 		System.out.print("Lutfen goruntuleme dilini seciniz. / Please select display language.\n 1--Turkish(TR) / " +
 				                 "Turkce icin '1'e basin" + " \n " + "2--English(EN)/For English press number '2'\n ");
+		System.out.print("Secmek istediginiz tusa basiniz / Press the key you want to select : ");
 		int select = sc.nextInt();
+		if (select != 1 && select != 2) {
+			System.out.println("Belirtilen tuslarina basmadiginiz icin program sonlandirildi.\nThe program was " +
+					                   "terminated because you did not press the specified keys. ");
+		}
 		if (select == 1) {
 			while (select == 1) {
 				System.out.println("1-- Merhaba Dunya yazdir.\n" + "2-- Faktoriyel Hesapla.\n" + "3-- Asal sayi " +
 						                   "kontrolu yap.\n" + "0-- Cikmak icin farkli bir tusa basin\n");
+				System.out.print("Secmek istediginiz tusa basiniz : ");
 				int tSelect = sc.nextInt();
 				switch (tSelect) {
 					case 1:
@@ -68,6 +75,7 @@ public class Menu {
 		if (select == 2) {
 			while (select == 2) {
 				System.out.println("1-- Print 'Hello World!'.\n" + "2-- Calculate The Factorial.\n" + "3-- Do a Prime" + " " + "Number Check.\n" + "0-- Press different key to exit\n");
+				System.out.print("Please select the action you want to perform : ");
 				int tSelect = sc.nextInt();
 				switch (tSelect) {
 					case 1:
@@ -118,10 +126,6 @@ public class Menu {
 						break;
 				}
 			}
-		}
-		if (select != 1 && select != 2) {
-			System.out.println("1 veya 2 tuslarina basmadiginiz icin program sonlandirildi.\nThe program was " +
-					                   "terminated because you did not press the 1 or 2 keys.\n ");
 		}
 	}
 }
