@@ -8,8 +8,7 @@ public class Menu {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Hosgeldiniz!/Welcome!");
 		System.out.print("Lutfen goruntuleme dilini seciniz. / Please select display language.\n 1--Turkish(TR) / " +
-				                 "Turkce icin '1'e basin" +
-				                 " \n " + "2--English(EN)/For English press number '2'\n ");
+				                 "Turkce icin '1'e basin" + " \n " + "2--English(EN)/For English press number '2'\n ");
 		int select = sc.nextInt();
 		if (select == 1) {
 			while (select == 1) {
@@ -66,11 +65,9 @@ public class Menu {
 				}
 			}
 		}
-		if (select == 2){
+		if (select == 2) {
 			while (select == 2) {
-				System.out.println("1-- Print 'Hello World!'.\n" + "2-- Calculate The Factorial.\n" + "3-- Do a Prime" +
-						                   " " +
-						                   "Number Check.\n" + "0-- Press different key to exit\n");
+				System.out.println("1-- Print 'Hello World!'.\n" + "2-- Calculate The Factorial.\n" + "3-- Do a Prime" + " " + "Number Check.\n" + "0-- Press different key to exit\n");
 				int tSelect = sc.nextInt();
 				switch (tSelect) {
 					case 1:
@@ -78,7 +75,7 @@ public class Menu {
 						Thread.sleep(1500);
 						break;
 					case 2:
-						System.out.print("Enter the number you want the factorial:\n ");
+						System.out.print("Enter the number you want the factorial: ");
 						int a = sc.nextInt();
 						int b = 1;
 						for (int i = 1; i <= a; i++) {
@@ -99,7 +96,7 @@ public class Menu {
 						}
 						else {
 							boolean isPrime = true;
-							for (long i = 3; i <= Math.sqrt(number); i += 2) { //karekök alma
+							for (long i = 3; i <= Math.sqrt(number); i += 2) {
 								if (number % i == 0) {
 									isPrime = false;
 									break;
@@ -122,9 +119,7 @@ public class Menu {
 				}
 			}
 		}
-		
-		
-		if (select !=1 && select !=2){
+		if (select != 1 && select != 2) {
 			System.out.println("1 veya 2 tuslarina basmadiginiz icin program sonlandirildi.\nThe program was " +
 					                   "terminated because you did not press the 1 or 2 keys.\n ");
 		}
