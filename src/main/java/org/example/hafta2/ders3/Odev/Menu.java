@@ -9,17 +9,18 @@ public class Menu {
 		System.out.println("Hosgeldiniz!/Welcome!");
 		Thread.sleep(1000);
 		System.out.print("Lutfen goruntuleme dilini seciniz. / Please select display language.\n 1--Turkish(TR) / " +
-				                 "Turkce icin '1'e basin" + " \n " + "2--English(EN)/For English press number '2'\n ");
+				                 "Turkce icin '1'e basin" + " \n " + "2--English(EN)/For English press number '2'\n "+
+				"3-- Cikmak icin farkli bir tusa basiniz./For exit press different key.\n");
 		System.out.print("Secmek istediginiz tusa basiniz / Press the key you want to select : ");
 		int select = sc.nextInt();
 		if (select != 1 && select != 2) {
-			System.out.println("Belirtilen tuslarina basmadiginiz icin program sonlandirildi.\nThe program was " +
-					                   "terminated because you did not press the specified keys. ");
+			System.out.println("Farkli bir tusa bastiginiz icin program sonlandirildi.\nThe program was " +
+					                   "terminated because you pressed another keys. ");
 		}
 		if (select == 1) {
 			while (select == 1) {
 				System.out.println("1-- Merhaba Dunya yazdir.\n" + "2-- Faktoriyel Hesapla.\n" + "3-- Asal sayi " +
-						                   "kontrolu yap.\n" + "0-- Cikmak icin farkli bir tusa basin\n");
+						                   "kontrolu yap.\n" + "4-- Dil degistirmek icin '4' e bas.\n" + "0-- Cikmak " + "icin farkli " + "bir tusa basin\n");
 				System.out.print("Secmek istediginiz tusa basiniz : ");
 				int tSelect = sc.nextInt();
 				switch (tSelect) {
@@ -64,6 +65,9 @@ public class Menu {
 						}
 						Thread.sleep(3000);
 						break;
+					case 4:
+						select = 2;
+						break;
 					default:
 						System.out.println("Farkli bir tusa bastiniz cikis yapiliyor. Görüsmek Uzere...");
 						Thread.sleep(2000);
@@ -74,7 +78,10 @@ public class Menu {
 		}
 		if (select == 2) {
 			while (select == 2) {
-				System.out.println("1-- Print 'Hello World!'.\n" + "2-- Calculate The Factorial.\n" + "3-- Do a Prime" + " " + "Number Check.\n" + "0-- Press different key to exit\n");
+				System.out.println("1-- Print 'Hello World!'.\n" +
+						                   "2-- Calculate The Factorial.\n" +
+						                   "3-- Do a Prime Number Check.\n" +
+						                   "0-- Press different key to exit\n");
 				System.out.print("Please select the action you want to perform : ");
 				int tSelect = sc.nextInt();
 				switch (tSelect) {

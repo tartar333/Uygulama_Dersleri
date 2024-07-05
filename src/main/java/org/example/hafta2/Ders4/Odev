@@ -1,0 +1,26 @@
+1-)Değişkenler:
+
+   Değişken nedir, nasıl tanımlanır?
+   Veri tipleri (int, double, boolean, String vb.) ve bunların kullanımı.
+   Değişken isimlendirme kuralları.
+2-)Tip Dönüşümleri:
+
+   Implicit (otomatik) ve explicit (manuel) tip dönüşümleri.
+   Casting işlemleri ve dikkat edilmesi gereken noktalar.
+   Veri tipleri arası dönüşümler (örneğin, int'ten double'a veya String'ten int'e dönüşüm).
+3-)Döngüler:
+
+   for, while, do-while döngü yapıları ve kullanım amaçları.
+   Döngü içinde kullanılan kontrol ifadeleri (break, continue).
+   Döngülerin pratikteki kullanım örnekleri (örneğin, dizilerde veya koleksiyonlarda döngü kullanımı).
+4-)Koşullu İfadeler:
+
+   if, else if, else yapıları ve kullanımı.
+   Mantıksal operatörler (&&, ||, !) ve bu operatörlerin koşullarda nasıl kullanıldığı.
+   Ternary (üçlü) operatörün kullanımı ve örnekleri.
+5-)Çalışma Hızı:
+
+  Java da çalışma hızı nasıl kontrol edilir.
+  Hangi kod blokları veya programlar kullanılabilir.
+  Çalışma hızı neyi ifade eder.
+  Kod optimizasyonu nedir ve nasıl optimize edilir.
