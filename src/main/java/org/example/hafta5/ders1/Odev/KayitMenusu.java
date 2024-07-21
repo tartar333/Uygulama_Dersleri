@@ -55,7 +55,7 @@ public class KayitMenusu {
 		}
 	}
 	
-	// Kullanıcı kayıt işlemi
+	// Kullanıcı kayıt işlemii
 	private static void kayitOl(Scanner tarayici) {
 		String eposta;
 		String tc;
