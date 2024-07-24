@@ -24,7 +24,7 @@ public class KayitMenusu {
 	private static List<Kullanici> kullanicilar = new ArrayList<>();
 	
 	public static void main(String[] args) {
-		Scanner tarayici = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		while (true) {
 			System.out.println("1. Kayıt Ol");
@@ -32,22 +32,22 @@ public class KayitMenusu {
 			System.out.println("3. Şifremi Unuttum");
 			System.out.println("4. Çıkış");
 			System.out.print("Seçiminiz: ");
-			int secim = tarayici.nextInt();
-			tarayici.nextLine();
+			int secim = sc.nextInt();
+			sc.nextLine();
 			
 			switch (secim) {
 				case 1:
-					kayitOl(tarayici);
+					kayitOl(sc);
 					break;
 				case 2:
-					girisYap(tarayici);
+					girisYap(sc);
 					break;
 				case 3:
-					sifremiUnuttum(tarayici);
+					sifremiUnuttum(sc);
 					break;
 				case 4:
 					System.out.println("Çıkış yapılıyor...");
-					tarayici.close();
+					sc.close();
 					return;
 				default:
 					System.out.println("Geçersiz seçim. Lütfen tekrar deneyin.");
