@@ -56,7 +56,7 @@ public class KayitMenusu {
 	}
 	
 	// Kullanıcı kayıt işlemii
-	private static void kayitOl(Scanner tarayici) {
+	private static void kayitOl(Scanner sc) {
 		String eposta;
 		String tc;
 		String kullaniciAdi;
@@ -64,7 +64,7 @@ public class KayitMenusu {
 		
 		while (true) {
 			System.out.print("E-posta: ");
-			eposta = tarayici.nextLine();
+			eposta = sc.nextLine();
 			if (!gecerliEposta(eposta)) {
 				System.out.println("Geçersiz e-posta. Lütfen geçerli bir e-posta adresi girin.");
 				continue;
@@ -76,7 +76,7 @@ public class KayitMenusu {
 			
 			while (true) {
 				System.out.print("TC Kimlik: ");
-				tc = tarayici.nextLine();
+				tc = sc.nextLine();
 				if (tc.length() != 11) {
 					System.out.println("TC Kimlik Numarası 11 haneli olmalıdır. Lütfen tekrar girin.");
 					continue;
@@ -89,18 +89,18 @@ public class KayitMenusu {
 			}
 			
 			System.out.print("Kullanıcı Adı: ");
-			kullaniciAdi = tarayici.nextLine();
+			kullaniciAdi = sc.nextLine();
 			if (kullaniciAdiVarMi(kullaniciAdi)) {
 				System.out.println("Girdiğiniz kullanıcı adı kullanılmaktadır.");
 				continue;
 			}
 			
 			System.out.print("Şifre: ");
-			sifre = tarayici.nextLine();
+			sifre = sc.nextLine();
 			
 			// Güvenlik sorusunu kaydet
 			System.out.print("Güvenlik Sorusu: En sevdiğiniz öğretmenin adı nedir? ");
-			String guvenlik = tarayici.nextLine();
+			String guvenlik = sc.nextLine();
 			
 			// Kullanıcı bilgilerini kaydet
 			kullanicilar.add(new Kullanici(eposta, tc, kullaniciAdi, sifre, guvenlik));
